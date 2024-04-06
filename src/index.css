@@ -1,0 +1,38 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    list-style-type: none;
+}
+
+/* scrollbar effect */
+*::-webkit-scrollbar {
+    width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #030712;
+    border: 2px solid;
+}
+
+
+body {
+    background-color: #030712;
+    font-family: 'Oswald', sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+button {
+    background-color: transparent;
+}
